@@ -1,0 +1,22 @@
+[4495] Log opened at 2022-08-16 07:48:58.611410
+[4495] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9005.
+[4495] [Step Debug] WARN: Creating socket for 'host.docker.internal:9005', poll success, but error: Operation now in progress (29).
+[4495] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9005 (through xdebug.client_host/xdebug.client_port) :-(
+[4505] Log opened at 2022-08-16 07:49:04.521473
+[4505] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9005.
+[4505] [Step Debug] WARN: Creating socket for 'host.docker.internal:9005', poll success, but error: Operation now in progress (29).
+[4505] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9005 (through xdebug.client_host/xdebug.client_port) :-(
+[4505] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9005.
+[4505] [Step Debug] WARN: Creating socket for 'host.docker.internal:9005', poll success, but error: Operation now in progress (29).
+[4505] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9005 (through xdebug.client_host/xdebug.client_port) :-(
+[4505] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9005.
+[4505] [Step Debug] WARN: Creating socket for 'host.docker.internal:9005', poll success, but error: Operation now in progress (29).
+[4505] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9005 (through xdebug.client_host/xdebug.client_port) :-(
+[4505] Log closed at 2022-08-16 07:49:05.264420
+
+[4505] Log opened at 2022-08-16 07:49:05.484259
+[4505] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9005.
+[4505] [Step Debug] WARN: Creating socket for 'host.docker.internal:9005', poll success, but error: Operation now in progress (29).
+[4505] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9005 (through xdebug.client_host/xdebug.client_port) :-(
+[4505] Log closed at 2022-08-16 07:49:05.493725
+

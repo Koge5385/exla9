@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.231.6/containers/php
+{
+	"name": "example-web-php81",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "exsample-web-php81",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "none",
+	
+	// Set *default* container specific settings.json values on container create.
+	// "settings": { 
+	// 	"php.validate.executablePath": "/usr/local/bin/php"
+	// },
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"xdebug.php-debug",
+		"bmewburn.vscode-intelephense-client",
+		"junstyle.php-cs-fixer",
+		"neilbrayfield.php-docblocker",
+		"ryannaddy.laravel-artisan",
+		"absszero.vscode-laravel-goto",
+		"mikestead.dotenv",
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	//"forwardPorts": [8100],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "ec2-user"
+}

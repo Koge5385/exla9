@@ -1,0 +1,14 @@
+version: '3.0'
+services:
+  exsample-web-php81:
+    container_name: exsample-web-php81
+#    ports:
+#      - "8100:8100"
+    build:
+      context: ./.devcontainer
+      dockerfile: Dockerfile
+    volumes:
+    - ./:/workspace:cached
+    - ./web:/workspace/web:delegated
+    - ./etc/php-ini:/etc/opt/remi/php81
+    tty: true
